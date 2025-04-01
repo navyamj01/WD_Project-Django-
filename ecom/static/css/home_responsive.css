@@ -1,0 +1,358 @@
+@media screen and (max-width:1200px) {
+
+    .foot-panel2 {
+      display: grid;
+      place-items: center;
+      grid-row-gap: 40px;
+      height: 500px;
+      grid-template-columns: repeat(2, 300px);
+      grid-template-rows: repeat(2, 200px);
+   }
+   .list1 {
+      margin-left: 50px;
+    }
+  .list2 {
+      margin-left: 35px;
+     }
+  
+    .region {
+      display: none;
+    }
+  
+    .add-sec {
+      font-size: 0.8rem;
+      margin-left: 5px;
+  
+    }
+  
+    .add-icon i {
+      font-size: 0.8rem;
+      margin-left: 20px;
+    }
+  
+    .nav-sec {
+      font-size: 0.7rem;
+    }
+  
+    .nav-cart i {
+      font-size: .8rem;
+    }
+  
+    .personlized {
+      margin-top: 40px;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width:1024px) {
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navbar {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      padding: 10px;
+      justify-content: space-evenly;
+    }
+  
+    .add-sec {
+      font-size: 0.9rem;
+    }
+  
+    .nav-sec {
+      font-size: 0.8rem;
+    }
+  
+    ::placeholder {
+      font-size: 0.8rem;
+    }
+  
+    .logo {
+      height: 40px;
+      width: 100%;
+      margin-left: 5px;
+    }
+  
+    .panel {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .panel-ops {
+      margin-left: 10px;
+    }
+  
+    .panel-deals {
+      display: none;
+    }
+  
+    .region {
+      display: none;
+    }
+  
+    .nav-return {
+      display: none;
+    }
+  
+    .nav-search {
+      width: 370px;
+    }
+  
+    .nav-signin {
+      margin-right: 10px;
+    }
+  
+    .add-first {
+      font-size: 0.6rem;
+    }
+  
+    .hero-msg {
+      text-align: center;
+      font-size: 0.70rem;
+      width: 100%;
+      padding-block: 5px;
+    }
+  
+    .shop-section {
+      overflow: hidden;
+    }
+  
+    .shop-section .box {
+      width: 50%;
+      height: 350px;
+      margin-top: 8px;
+  
+    }
+  
+    .box-content {
+      margin-left: 0.7rem;
+      margin-right: 0.7rem;
+    }
+  
+    .box-content p {
+      font-size: 0.8rem;
+    }
+  
+    .box-content h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .box-img {
+      height: 250px;
+      margin-bottom: 0.6rem;
+    }
+  
+    .sliding_images {
+      margin-top: 25px;
+    }
+  
+    .sliding_images .images {
+      max-width: 100%;
+    }
+  
+    .heading {
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+  
+    .personlized {
+      margin-top: 80px;
+    }
+  
+  }
+  
+  @media screen and (max-width:768px) {
+    .navbar {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      justify-content: space-between;
+    }
+  
+    .panel {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .nav-search {
+      width: 325px;
+    }
+  
+    .nav-cart {
+      margin-right: 10px;
+    }
+  
+    .nav-cart i {
+      font-size: 1rem;
+    }
+  
+    .logo {
+      height: 40px;
+    }
+  
+    .nav-signin {
+      display: none;
+    }
+  
+    .hero-msg {
+      font-size: 0.6rem;
+    }
+  
+    .panel-ops {
+      display: none;
+    }
+  
+    .panel {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .panel i {
+      margin-left: 10px;
+    }
+  
+    .personlized {
+      margin-top: 60px;
+    }
+  
+    .foot-panel2 {
+      display: grid;
+      place-items: center;
+      grid-row-gap: 40px;
+      height: 500px;
+      grid-template-columns: repeat(2, 300px);
+      grid-template-rows: repeat(2, 200px);
+    }
+  
+    .list1,
+    .list2 {
+      margin-left: 60px;
+    }
+  
+    .information {
+      gap: 8px;
+      justify-content: center;
+    }
+  
+    .foot-panel3 {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+  
+    .information {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width:560px) {
+    .logo {
+      height: 100px;
+    }
+  
+    .navbar {
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    .nav-cart {
+      display: none;
+    }
+  
+    .logo {
+      height: 60px;
+      width: 100%;
+    }
+  
+    .nav-address {
+      display: none;
+    }
+  
+    .nav-search {
+      width: 200px;
+      margin-right: 20px;
+    }
+  
+    .hero-section {
+      background-size: cover;
+  
+      background-repeat: no-repeat;
+      position: relative;
+    }
+  
+    .panel {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .nav-signin {
+      font-size: 0.6rem;
+    }
+  
+    .hero-msg {
+      font-size: .5rem;
+    }
+  
+    .shop-section .box {
+      width: 100%;
+    }
+  
+    .foot-panel2 {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+  
+    }
+  
+    .list1,
+    .list2 {
+      margin-left: 10px;
+    }
+  
+    .foot-panel3 {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .information {
+      display: flex;
+      margin-left: 10px;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width:426px) {
+    .personlized {
+      margin-top: 20px;
+    }
+  
+    .foot-panel3 {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+  
+    }
+  
+    .logo1 {
+      background-image: url('/assets/amazon_logo.png');
+      height: 90px;
+    }
+  
+    .information {
+      margin-top: 45px;
+      display: flex;
+      flex-direction: row;
+      margin-left: 0;
+      width: 90%;
+    }
+  
+  }
